@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Dado del Amor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <canvas id="confetti"></canvas>
+
+  <div class="bg-hearts" aria-hidden="true"></div>
+
+  <header class="header">
+    <h1 class="title">🎲 El Dado del Amor</h1>
+    <p class="subtitle">Tirá el dado, cumplí la carta y sumá puntos. ¿Quién domina la liga del amor?</p>
+  </header>
+
+  <main class="layout">
+
+    <section class="players-row">
+      <div class="player-card p1" id="player1Card">
+        <div class="avatar">💜</div>
+        <h2 class="pname" id="name1" title="Tocá para cambiar el nombre" contenteditable="true" spellcheck="false">Vos</h2>
+        <div class="points" id="points1">0</div>
+        <div class="points-label">puntos</div>
+        <div class="turn-badge" id="turn1">Tu turno</div>
+        <div class="p-bar"><span id="bar1"></span></div>
+      </div>
+
+      <div class="center-zone">
+        <div class="mode-switch" id="modeSwitch" role="switch" aria-checked="true" tabindex="0">
+          <span class="ms-label">🌶️ Modo picante</span>
+          <span class="ms-track"><span class="ms-thumb"></span></span>
+        </div>
+
+        <div class="dice-box" id="dice-box">
+          <div class="dice" id="dice">
+            <div class="face f1">💋</div>
+            <div class="face f6">⭐</div>
+            <div class="face f2">💆</div>
+            <div class="face f3">🫣</div>
+            <div class="face f4">🎁</div>
+            <div class="face f5">🔥</div>
+          </div>
+          <div class="dice-shadow"></div>
+        </div>
+
+        <button class="roll-btn" id="rollBtn">Tirar el dado</button>
+        <p class="hint" id="turnHint">Arranca el turno de <strong>💜 Vos</strong></p>
+      </div>
+
+      <div class="player-card p2" id="player2Card">
+        <div class="avatar">💗</div>
+        <h2 class="pname" id="name2" title="Tocá para cambiar el nombre" contenteditable="true" spellcheck="false">Tu amor</h2>
+        <div class="points" id="points2">0</div>
+        <div class="points-label">puntos</div>
+        <div class="turn-badge" id="turn2">Tu turno</div>
+        <div class="p-bar"><span id="bar2"></span></div>
+      </div>
+    </section>
+
+    <section class="card-zone" id="cardZone">
+      <div class="card empty" id="cardEmpty">
+        <div class="big-dice">🎲</div>
+        <p>Toca <strong>Tirar el dado</strong> para descubrir tu carta de amor.</p>
+      </div>
+
+      <div class="card hidden" id="cardResult">
+        <div class="card-head">
+          <span class="cat-icon" id="catIcon"></span>
+          <span class="cat-name" id="catName"></span>
+        </div>
+        <p class="card-text" id="cardText"></p>
+        <p class="card-pts" id="cardPts"></p>
+      </div>
+
+      <div class="card hidden" id="cardVote">
+        <div class="card-head"><span class="cat-icon">⭐</span><span class="cat-name">Comodín dorado</span></div>
+        <p class="card-text">Elegí la categoría que más te guste y ganá <strong>el doble de puntos</strong>.</p>
+        <div class="vote-grid" id="voteGrid"></div>
+      </div>
+
+      <div class="actions hidden" id="actions">
+        <button class="btn done" id="doneBtn">✔ Lo cumplimos</button>
+        <button class="btn skip" id="skipBtn">⏭ Saltear la carta</button>
+      </div>
+    </section>
+
+    <section class="bottom-row">
+      <div class="history-card">
+        <h3>📜 Historial</h3>
+        <ul id="historyList"><li class="hist-empty">Todavía no hay jugadas.</li></ul>
+      </div>
+      <div class="stats-card">
+        <h3>🏆 Liga del amor</h3>
+        <p id="statsText">Empiecen a jugar para ver quién va ganando.</p>
+        <button class="btn reset" id="resetBtn">🔄 Reiniciar juego</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">Hecho con 💜 para vos. El dado decide, el corazón cumple.</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
