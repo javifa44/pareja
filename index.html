@@ -4,34 +4,49 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>El Dado del Amor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <canvas id="confetti"></canvas>
-
   <div class="bg-hearts" aria-hidden="true"></div>
 
   <header class="header">
-    <h1 class="title">🎲 El Dado del Amor</h1>
-    <p class="subtitle">Tirá el dado, cumplí la carta y sumá puntos. ¿Quién domina la liga del amor?</p>
+    <div class="bunting" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="header-inner">
+      <h1 class="title">El Dado del Amor</h1>
+      <p class="subtitle">Tirada con el corazón, que gane el mejor.</p>
+      <button class="gear" id="openSet" title="Ajustes del juego">⚙️</button>
+    </div>
   </header>
 
   <main class="layout">
 
+    <div class="goal-ribbon" id="goalRibbon">
+      <span class="gr-em">🎯</span>
+      <p>Meta de la temporada: <b id="goalNum">100 pts</b> · se gana con <b id="marginNum">20</b> pts de ventaja</p>
+      <button class="gr-edit" id="goalEdit" title="Cambiar meta y premios">✏️</button>
+    </div>
+
+    <div class="season-chip">Temporada <span id="seasonNum">1</span></div>
+
     <section class="players-row">
+
       <div class="player-card p1" id="player1Card">
-        <div class="avatar">💜</div>
-        <h2 class="pname" id="name1" title="Tocá para cambiar el nombre" contenteditable="true" spellcheck="false">Vos</h2>
+        <div class="avatar">💙</div>
+        <h2 class="pname" id="name1" title="Tocá el nombre para editarlo" contenteditable="true" spellcheck="false">Alex</h2>
         <div class="points" id="points1">0</div>
-        <div class="points-label">puntos</div>
-        <div class="turn-badge" id="turn1">Tu turno</div>
+        <div class="pts-goal" id="ptsGoal1">0 / <span class="goalRef">100</span></div>
         <div class="p-bar"><span id="bar1"></span></div>
+        <div class="turn-badge" id="turn1">Tu turno</div>
       </div>
 
       <div class="center-zone">
         <div class="mode-switch" id="modeSwitch" role="switch" aria-checked="true" tabindex="0">
-          <span class="ms-label">🌶️ Modo picante</span>
+          <span class="ms-label">🌶️ Picante</span>
           <span class="ms-track"><span class="ms-thumb"></span></span>
         </div>
 
@@ -47,27 +62,28 @@
           <div class="dice-shadow"></div>
         </div>
 
-        <button class="roll-btn" id="rollBtn">Tirar el dado</button>
-        <p class="hint" id="turnHint">Arranca el turno de <strong>💜 Vos</strong></p>
+        <button class="roll-btn" id="rollBtn"><span class="rb-dice">🎲</span> Tirar el dado</button>
+        <p class="hint" id="turnHint">Arranca el turno de <strong>💙 Alex</strong></p>
       </div>
 
       <div class="player-card p2" id="player2Card">
         <div class="avatar">💗</div>
-        <h2 class="pname" id="name2" title="Tocá para cambiar el nombre" contenteditable="true" spellcheck="false">Tu amor</h2>
+        <h2 class="pname" id="name2" title="Tocá el nombre para editarlo" contenteditable="true" spellcheck="false">Majo</h2>
         <div class="points" id="points2">0</div>
-        <div class="points-label">puntos</div>
-        <div class="turn-badge" id="turn2">Tu turno</div>
+        <div class="pts-goal" id="ptsGoal2">0 / <span class="goalRef">100</span></div>
         <div class="p-bar"><span id="bar2"></span></div>
+        <div class="turn-badge" id="turn2">Tu turno</div>
       </div>
     </section>
 
     <section class="card-zone" id="cardZone">
       <div class="card empty" id="cardEmpty">
         <div class="big-dice">🎲</div>
-        <p>Toca <strong>Tirar el dado</strong> para descubrir tu carta de amor.</p>
+        <p>Tocá <strong>Tirar el dado</strong> para descubrir tu carta.</p>
       </div>
 
       <div class="card hidden" id="cardResult">
+        <div class="ticket-cut"></div>
         <div class="card-head">
           <span class="cat-icon" id="catIcon"></span>
           <span class="cat-name" id="catName"></span>
@@ -84,7 +100,7 @@
 
       <div class="actions hidden" id="actions">
         <button class="btn done" id="doneBtn">✔ Lo cumplimos</button>
-        <button class="btn skip" id="skipBtn">⏭ Saltear la carta</button>
+        <button class="btn skip" id="skipBtn">⏭ Saltear</button>
       </div>
     </section>
 
@@ -93,15 +109,82 @@
         <h3>📜 Historial</h3>
         <ul id="historyList"><li class="hist-empty">Todavía no hay jugadas.</li></ul>
       </div>
+
       <div class="stats-card">
         <h3>🏆 Liga del amor</h3>
         <p id="statsText">Empiecen a jugar para ver quién va ganando.</p>
+        <div class="champions" id="championsLine"></div>
+        <div id="lastClaim" class="last-claim hidden"></div>
+        <button class="btn mini hidden" id="claimBtn">🏅 Elegir premio pendiente</button>
         <button class="btn reset" id="resetBtn">🔄 Reiniciar juego</button>
       </div>
     </section>
   </main>
 
-  <footer class="footer">Hecho con 💜 para vos. El dado decide, el corazón cumple.</footer>
+  <footer class="footer">Hecho con 💙 para Alex &amp; Majo · El dado decide, el corazón cumple.</footer>
+
+  <!-- Modal de ajustes -->
+  <div class="overlay hidden" id="setOverlay">
+    <div class="modal small">
+      <button class="x" id="setClose" title="Cerrar">✕</button>
+      <h2>⚙️ Ajustes de la temporada</h2>
+
+      <label class="field">🎯 Meta de puntos
+        <input type="number" id="setGoal" min="20" max="1000" step="10" />
+        <small>El primero que la alcance con ventaja gana.</small>
+      </label>
+
+      <label class="field">⚖️ Ventaja para ganar
+        <input type="number" id="setMargin" min="0" max="200" step="5" />
+        <small>Con la meta alcanzada, hay que superar por esta diferencia. ¡No se regala nada!</small>
+      </label>
+
+      <div class="field reward-field">
+        <span class="rf-label">🎟️ Premios que elige el ganador</span>
+        <label>🥉 Nivel 1 · Simple
+          <textarea id="setReward1" rows="2"></textarea>
+        </label>
+        <label>🥈 Nivel 2 · Media
+          <textarea id="setReward2" rows="2"></textarea>
+        </label>
+        <label>🥇 Nivel 3 · Épica
+          <textarea id="setReward3" rows="2"></textarea>
+        </label>
+        <small>El de la Épica pensado para dos que no conviven: que sea una salida, plan o experiencia.</small>
+      </div>
+
+      <button class="btn done" id="saveSet">Guardar ajustes</button>
+    </div>
+  </div>
+
+  <!-- Modal de celebración / premio -->
+  <div class="overlay hidden" id="celeOverlay">
+    <div class="modal cele">
+      <button class="x" id="celeClose" title="Cerrar">✕</button>
+      <div class="trophy">🏆</div>
+      <h2 id="celeTitle">¡Ganó Alex!</h2>
+      <p id="celeSub">La liga tiene campeón. Elegí tu premio.</p>
+      <div class="tiers" id="tiers"></div>
+      <div class="claim hidden" id="claimBox">
+        <p id="claimText"></p>
+        <button class="btn done" id="seasonBtn">🏁 Empezar nueva temporada</button>
+      </div>
+      <button class="linky" id="laterBtn">Prefiero elegir el premio después</button>
+    </div>
+  </div>
+
+  <!-- Modal de confirmación de reinicio -->
+  <div class="overlay hidden" id="resetOverlay">
+    <div class="modal small">
+      <button class="x" id="resetClose" title="Cerrar">✕</button>
+      <h2>🔄 Reiniciar juego</h2>
+      <p class="modal-text">Se borran puntos, historial y campeones de esta temporada. ¿Seguro?</p>
+      <div class="modal-actions">
+        <button class="btn skip" id="resetNo">Cancelar</button>
+        <button class="btn done" id="resetYes">Sí, reiniciar todo</button>
+      </div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
