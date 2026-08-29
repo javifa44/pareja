@@ -140,17 +140,26 @@
       </label>
 
       <div class="field reward-field">
-        <span class="rf-label">🎟️ Premios que elige el ganador</span>
-        <label>🥉 Nivel 1 · Simple
-          <textarea id="setReward1" rows="2"></textarea>
+        <span class="rf-label">🎟️ Premios: 3 categorías × 2 niveles</span>
+        <label>🧳 Aventura · Nivel 1
+          <textarea id="setRewardA1" rows="2"></textarea>
         </label>
-        <label>🥈 Nivel 2 · Media
-          <textarea id="setReward2" rows="2"></textarea>
+        <label>🧳 Aventura · Nivel 2
+          <textarea id="setRewardA2" rows="2"></textarea>
         </label>
-        <label>🥇 Nivel 3 · Épica
-          <textarea id="setReward3" rows="2"></textarea>
+        <label>🥂 Noche premium · Nivel 1
+          <textarea id="setRewardB1" rows="2"></textarea>
         </label>
-        <small>El de la Épica pensado para dos que no conviven: que sea una salida, plan o experiencia.</small>
+        <label>🥂 Noche premium · Nivel 2
+          <textarea id="setRewardB2" rows="2"></textarea>
+        </label>
+        <label>🃏 Carta blanca · Nivel 1
+          <textarea id="setRewardC1" rows="2"></textarea>
+        </label>
+        <label>🃏 Carta blanca · Nivel 2
+          <textarea id="setRewardC2" rows="2"></textarea>
+        </label>
+        <small>El ganador elige la categoría que crea que al otro más le gustaría, responde una pregunta personal y según acierte se lleva el Nivel 2 o el Nivel 1.</small>
       </div>
 
       <button class="btn done" id="saveSet">Guardar ajustes</button>
@@ -164,11 +173,25 @@
       <div class="trophy">🏆</div>
       <h2 id="celeTitle">¡Ganó Alex!</h2>
       <p id="celeSub">La liga tiene campeón. Elegí tu premio.</p>
+
+      <div class="step-dot">1 · Elegí la categoría 💭</div>
       <div class="tiers" id="tiers"></div>
+
+      <div class="quiz hidden" id="quizStep">
+        <div class="step-dot">2 · Pregunta íntima 💘</div>
+        <p class="quiz-q" id="quizQ"></p>
+        <div class="q-options" id="quizOpts"></div>
+        <div class="q-verdict hidden" id="quizVerdict">
+          <button class="btn done" id="quizYes">Sí, le acerté 🎯</button>
+          <button class="btn skip" id="quizNo">No, me equivoqué</button>
+        </div>
+      </div>
+
       <div class="claim hidden" id="claimBox">
         <p id="claimText"></p>
         <button class="btn done" id="seasonBtn">🏁 Empezar nueva temporada</button>
       </div>
+
       <button class="linky" id="laterBtn">Prefiero elegir el premio después</button>
     </div>
   </div>

@@ -12,22 +12,22 @@
       accent: "desafio",
       pts: 10,
       items: [
-        "Hacé el clásico: llevá a tu pareja en caballito por 30 segundos.",
-        "Canta tu canción favorita mirándola a los ojos. Sin reírte.",
-        "Imitá a un animal hasta que tu pareja adivine cuál es.",
-        "Hablá en robot durante las próximas 3 rondas.",
-        "Desfilá por la casa como una modelo de pasarela. Con estilo.",
-        "Bailá un vals o un reggaetón sin música. Tu pareja elige el ritmo.",
-        "Mandale a tu pareja un audio de WhatsApp cantando una canción de amor.",
-        "Hacé 10 sentadillas diciendo «te amo» en cada una.",
-        "Convencé a tu pareja de que sos un mimo transitando una pared.",
-        "Hacé reír a tu pareja sin tocarla durante 30 segundos al hilo.",
-        "Repetí «miau, guau, pío» cada vez que digas una palabra con 'a' por 1 minuto.",
-        "Escribí un mini-poema de 4 versos sobre tu pareja y leelo en voz alta.",
-        "Hacé de espejo: tu pareja hace gestos lentos y vos los imitás exactos.",
-        "Bailá de a dos por 30 segundos usando una escoba como micrófono.",
-        "Hablá con acento de otro país el resto de esta ronda.",
-        "Hacé 3 vueltas sobre vos mismo y saludá como si fueras famoso."
+        "Sorprendela con un beso largo y lento en el momento más inesperado del día: la cocina, el ascensor, la cola del kiosco.",
+        "Contá una anécdota de ustedes dos como si fuera la historia de dos desconocidos en un bar. Sin nombres, con detalles.",
+        "Ella te pide un deseo ahora mismo. Lo cumplís hoy (dentro de toda legalidad 😏).",
+        "Regla nueva por 30 minutos: cada vez que ella se toque la cara, vos le das un beso donde ella elija.",
+        "Inventá un «plan prohibido» para este fin de semana: algo que ninguno de los dos hizo nunca.",
+        "Pelea de besos: el primero que se ríe pierde y queda debiendo un deseo.",
+        "Murmurale al oído un párrafo de película de amor… pero reescribilo con historias de ustedes.",
+        "Caminen una cuadra tomados de la mano y la siguiente con ella un paso adelante, siendo vos su sombra.",
+        "Contale un secreto tuyo con la condición de que nunca lo repita ni a vos.",
+        "Ella elige una canción: bailen en la cocina como si fuera el final de una película.",
+        "Adiviná 3 cosas que ella pensó hoy. Por cada acierto, un beso.",
+        "Hablá un minuto entero de lo que te enamora de estar con ella. Sin repetir palabras.",
+        "Ella te da una orden para los próximos 10 minutos. Obediente y creativo.",
+        "Repetile su frase favorita de la cama… con tu mejor actuación seductora.",
+        "Elegí un lugar de la ciudad para un beso rápido y robáronlo en público.",
+        "Ella cierra los ojos y te adivina solo por el tacto: 30 segundos, tres intentos."
       ]
     },
     masaje: {
@@ -36,22 +36,22 @@
       accent: "masaje",
       pts: 10,
       items: [
-        "Masaje de hombros por 2 minutos mientras preguntás «¿así?» esperando un sí.",
-        "Masaje de manos y terminá con un beso en la muñeca.",
-        "Masaje de cuello y nuca contando un secreto al oído.",
-        "Masaje de pies con crema. Hidratación de lujo.",
-        "Masaje de cabeza y cuero cabelludo por 2 minutos. Hasta que ronronee.",
-        "Masaje de espalda en silencio, dejando que la música hable.",
-        "Masaje de hombros con aceite de coco o cualquier aroma que elijas.",
-        "Masaje de espalda con la persona de pie y vos detrás.",
-        "Masaje de gemelos y pantorrillas, con agua caliente antes.",
-        "Masaje de manos mientras ven una serie. Nada de prisa.",
-        "Masaje de hombros con el pulgar en los puntos tensos, con presión suave.",
-        "Masaje de pies con movimientos circulares y un beso en el talón al final.",
-        "Masaje de espalda con las palmas bien calientes. Vení, sin frío.",
-        "Masaje de cabeza y cuello hasta que tu pareja se relaje del todo.",
-        "Masaje relámpago de 1 minuto: no podés pedir nada durante 60 segundos.",
-        "Masaje facial suave con crema hidratante por 2 minutos."
+        "Masaje de espalda completo, en silencio, con la música que ella elija. 5 minutos sin prisa.",
+        "Masaje de pies con el aceite o crema que ella prefiera, y un beso en el empeine al final.",
+        "Masaje de cuello y hombros mientras le susurrás un secreto que nunca contaste.",
+        "Masaje de cabeza y cuero cabelludo, con deslizamientos lentos, hasta que se derrita.",
+        "Masaje de manos largo, terminando con tus dedos entrelazados a las suyas durante un minuto.",
+        "Masaje de brazos y antebrazos, con ella con los ojos cerrados, hablando bajito.",
+        "Masaje de piernas: tobillos, gemelos y muslos. Ella marca el límite, vos el ritmo.",
+        "«Mapa del tesoro»: ella te dibuja en su cuerpo los puntos que más le gustan y vos se los trabajás.",
+        "Masaje de espalda y, al final, escribile una palabra en la piel con el dedo: que la adivine.",
+        "Spa exprés: toalla tibia, crema, y un masaje de espalda con la luz baja.",
+        "Masaje de hombros desde atrás, de pie, mientras le contás tu día con la voz bien lenta.",
+        "Masaje facial suave con crema hidratante, terminando en un beso en la frente.",
+        "Masaje de muñecas y manos de larga duración, hasta que se le caiga el celular de la mano.",
+        "Masaje de cuello acostados, perfil contra perfil, con caricias del lado oscuro.",
+        "Masaje de pies con movimientos circulares y después un beso en el talón. Sin reírse.",
+        "Ella elige zona y tiempo. Vos el método. Resultado: le tenés que arrancar un «mmmm»."
       ]
     },
     confesion: {
@@ -60,22 +60,22 @@
       accent: "confesion",
       pts: 10,
       items: [
-        "Confesá cuál fue el momento exacto en que te enamoraste.",
-        "Decí qué fue lo primero que notaste físicamente de tu pareja.",
-        "Contá la mayor «estupidez» que hiciste por amor.",
-        "¿Qué canción te recuerda a tu pareja y por qué?",
-        "Confesá algo que hiciste a escondidas por tu pareja.",
-        "Contale una fantasía de viaje que nunca le contaste.",
-        "Decile un piropo que nunca tuviste el valor de decirle.",
-        "Contalo un sueño raro que lo haya involucrado.",
-        "¿Cuál fue tu primer pensamiento al verlo hoy?",
-        "Confesá una manía tuya que tu pareja aún no conozca.",
-        "Decile cuál sería tu cita ideal y qué harían.",
-        "Confesá tres comidas que cocinarías solo para tu pareja.",
-        "Contale algo que hayas aprendido en esta relación.",
-        "Decile cuál es su cualidad que más te atrae y cuál te sorprendió.",
-        "Confesá una vez que tuviste celos (y por qué).",
-        "Contale cuál es tu plan de la próxima cita perfecta."
+        "Contale cómo la describís cuando hablás de ella con alguien que no la conoce.",
+        "Confesá cuál fue tu primer pensamiento cuando la viste, y cuál fue tu primer pensamiento hoy.",
+        "Revelá un recuerdo tuyo que nunca contaste: vergonzoso, lindo o directamente raro.",
+        "¿Cuál es la manía de ella que te derrite aunque jamás se la dijiste? Decile ahora.",
+        "Contale el sueño más extraño que hayas tenido con ella, con todos los detalles raros.",
+        "Confesá qué cosa le perdonás sin que ella lo sepa.",
+        "¿Cuál fue tu momento de máximo orgullo por ella? Reconstruílo de punta a punta.",
+        "Confesá qué te dio celos alguna vez y por qué (sé honesto, puede ser gracioso).",
+        "Decile algo tuyo que no le mostraste nunca: un miedo, una ilusión, una contradicción.",
+        "¿Qué parte de ella todavía te falta descubrir? Ese misterio que te da curiosidad.",
+        "Decile dónde soñás besarla la próxima vez… y por qué ahí.",
+        "Confesá una «tontería» que harías por ella sin dudar ni un segundo.",
+        "¿Cuál es la pregunta que no te animás a hacerle? Hacésela. En serio.",
+        "Contale tu plan secreto para los próximos meses con ella.",
+        "Confesá en qué situación te sentís totalmente vulnerable con ella.",
+        "Decile el elogio que te guardaste para después, para un momento especial. Ahora es ese momento."
       ]
     },
     favor: {
@@ -84,22 +84,22 @@
       accent: "favor",
       pts: 10,
       items: [
-        "Preparale hoy algo de comer o beber sin que lo pida.",
-        "Dejale una nota linda escondida donde lo vaya a encontrar mañana.",
-        "Elegí una serie o película que le encante y miren juntos.",
-        "Dale un masaje de 5 minutos hoy (clase exprés).",
-        "Planificá una mini-cita sorpresa para esta semana.",
-        "Ayudalo con algo pendiente de su agenda.",
-        "Compra su snack favorito.",
-        "Llevale el desayuno a la cama este fin de semana.",
-        "Hacele una lista escrita de 5 cosas que amás de él o ella.",
-        "Elegí hoy, por una vez, lo que tu pareja quiere (film, música, comida).",
-        "Cargale el teléfono y dejale la pantalla de inicio con un fondo lindo.",
-        "Ordená la cama y dejá el lado de tu pareja impecable.",
-        "Preparale una merienda sorpresa con su sabor favorito.",
-        "Encargate de una tarea de tu pareja hoy.",
-        "Regalale una plantita o flor simple «porque sí».",
-        "Escribile un mensaje largo antes de dormir contándole tu día."
+        "Concretale hoy un plan anticipado: fecha, hora y algo rico. Vos lo armás completo.",
+        "Dejale una nota escrita en un lugar donde la encuentre mañana: su bolso, su libro, su auto.",
+        "Comprale esa cosa que «vio y no se compró». Pieza, libro, plantita, lo que sea.",
+        "Armale una playlist con canciones y por cada una, un mensajito de por qué te recuerda a ella.",
+        "Resolvé hoy un trámite o pendiente de ella (turno, compra, descarga, consulta).",
+        "Mandalé un audio contándole algo lindo antes de que se duerma.",
+        "Preparale una merienda o desayuno sorpresa con su sabor preferido.",
+        "Escribile una carta a mano: tu año (real o inventado) con ella, futuro incluido.",
+        "Acompañala en eso que le da fiaca hacer sola y hacelo vos lo más fácil posible.",
+        "Elijala vos en la próxima decisión 100%: restaurante, película, horario de verse.",
+        "Comprale un plan sencillo pero pensado: un café, una entrada, un pasaje a un lugar que ama.",
+        "Dejale deuda pendiente: prometé un plan especial, fijá fecha y contale qué es (sin dañar la sorpresa).",
+        "Regalale una «válvula de escape»: la decisión de hoy es toda de ella, sin opinión tuya.",
+        "Hacele su comida o bebida favorita, aunque sea tu peor día para cocinar.",
+        "Concretale la cita que ella siempre propone y vos siempre pateás.",
+        "Escribile una lista de 10 cosas que amás de ella y mandéselas por mensaje."
       ]
     },
     picante: {
@@ -108,20 +108,20 @@
       accent: "picante",
       pts: 15,
       items: [
-        "Beso apasionado de al menos 30 segundos.",
-        "Beso en el cuello mientras miran una película. Avisá con un susurro.",
-        "Bailen pegaditos y que tu pareja decida cuándo termina.",
-        "Susurro al oído: decile qué te gustaría hacerle esta noche (con calma).",
-        "Dale un beso en el hombro y bajá despacio hasta la muñeca. Suspenso.",
-        "Mandale a tu pareja un mensaje sugestivo al oído para que lo lea.",
-        "Abrazá por detrás a tu pareja durante 30 segundos. Nada más.",
-        "Jugá a sobarles la espalda hasta encontrar su «punto débil».",
-        "Mirada intensa sin reírse: gana el que primero conecta un beso.",
-        "Murmuro de cuello y nuca, pero solo guiños, sin manos.",
-        "Beso en el lóbulo de la oreja (que dure un suspiro).",
-        "Vean la próxima película medio día acurrucados, sin pantalla que los separe.",
-        "Juego de miradas picantes hasta que alguien se ríe.",
-        "Dale el control de la música a tu pareja y bailen lento."
+        "Beso apasionado de 30 segundos con las manos quietas. Solo el beso, que diga él.",
+        "Sesión de besos lentos en el cuello, el hombro y la clavícula, marcando dónde le hace más efecto.",
+        "Murmurale al oído, sin tocarla, lo que le harías esta noche. Con detalles. Con calma.",
+        "Show privado: bailá para ella un minuto, mirándola a los ojos, sin música.",
+        "Descubrí su «punto débil» de la piel y usalo durante 2 minutos.",
+        "Masaje de espalda que termina en un beso en la nuca. Y nada más… todavía.",
+        "Juego de miradas: quien desvía la mirada primero pierde una prenda (opcional, divertido).",
+        "Beso en el hombro con tu mano bajando lento por su brazo… hasta justo antes de los dedos.",
+        "Cuenta regresiva: 30 segundos de beso sin soltarla, contando en voz baja del 30 al 0.",
+        "Espalda contra la pared, un beso con un poquito de drama cinematográfico y las manos en su cintura.",
+        "Susúrrale una orden para los próximos 10 minutos. Legal, pero firme.",
+        "Baile lento con la luz baja: vos guiás, ella corta cuando quiera.",
+        "Te pagan con caricias: un minuto de masaje de manos y muñecas, mirándose fijo.",
+        "Ella te venda los ojos y te hace adivinar qué parte de su cuerpo te toca."
       ]
     }
   };
@@ -131,15 +131,47 @@
   /* mapeo dado -> categoría por cara del cubo */
   const FACE_TO_CAT = { 1: "desafio", 2: "masaje", 3: "confesion", 4: "favor", 5: "picante", 6: "comodin" };
 
-  const DEFAULT_REWARDS = {
-    1: "El ganador elige qué comemos y qué vemos en la próxima cita. El perdedor pone la mesa y el postre.",
-    2: "El perdedor planea y paga una cita elegida por el ganador, con todos los detalles que el ganador pida.",
-    3: "El perdedor prepara una salida o experiencia elegida por el ganador: cana, show, spa, día de campo, clase de cocina… y queda en deuda hasta cumplirla."
+  /* ---------- premios: 3 categorías × 2 niveles ---------- */
+
+  const REWARDS_META = {
+    aventura: { icon: "🧳", name: "Aventura" },
+    premium:  { icon: "🥂", name: "Noche premium" },
+    libre:    { icon: "🃏", name: "Carta blanca" }
   };
+
+  const DEFAULT_REWARDS = {
+    aventura: {
+      1: "Un día fuera de la rutina que arma el perdedor: ruta, picnic, ciudad o campo. El ganador elige rumbo, el perdedor lo hace realidad.",
+      2: "Una escapada de verdad: un fin de semana o viajecito planificado por el perdedor, con sorpresas pensadas para el ganador."
+    },
+    premium: {
+      1: "Una noche premium: el perdedor paga, el ganador elige el plan (cena con vista, show, pista VIP, lo que sea).",
+      2: "Experiencia inolvidable: teatro, concierto, cena con banda en vivo o spa. El perdedor la prepara completa, de principio a fin."
+    },
+    libre: {
+      1: "Un deseo libre (lógico y legal, pero creativo): algo que el ganador siempre quiso que el perdedor haga por él o ella.",
+      2: "Carta blanca total: el ganador escribe su deseo más tentador, con fecha límite, y el perdedor lo cumple."
+    }
+  };
+
+  /* ---------- pregunta personal (quiz del premio) ---------- */
+
+  const QUIZ = [
+    { q: "Si mañana le regalaran un viaje pago a cualquier lugar, ¿a dónde va?", opts: ["Playa y mar", "Montaña con frío", "Una ciudad europea", "Campo / casita rural"] },
+    { q: "A la 1 de la mañana, su debilidad inconfesable es…", opts: ["Algo salado", "Dulce o helado", "Snacks + serie", "Herboristería… mejor no"] },
+    { q: "¿Cuál es su plan de domingo perfecto?", opts: ["Dormir hasta tarde y café largo", "Salir al aire libre", "Series con mimos todo el día", "Paseo + algo rico"] },
+    { q: "Su manía más tierna (esa que te hace sonreír sola a vos) es…", opts: ["Hacer planes a último momento", "Mandarte audios larguísimos", "Perder la hora mirando el celular", "Reírse de sus propios chistes"] },
+    { q: "El regalo que más la emocionaría de verdad:", opts: ["Un viaje sorpresa", "Algo hecho a mano", "Esa cosa que nombró mil veces", "Un momento planeado solo para ella"] },
+    { q: "¿Qué detalle la puede sacar de quicio más rápido?", opts: ["Llegar tarde", "Que le cambien los planes", "Que no le presten atención", "El ruido del chat en bucle"] },
+    { q: "El lugar del cuerpo donde más le gusta que la besen:", opts: ["El cuello", "Los labios, obvio", "La frente", "Detrás de la oreja"] },
+    { q: "¿Qué es lo que más la enamora de vos?", opts: ["Que la hacés reír", "Cómo la mirás", "Que la escuchás de verdad", "Que la apoyás en todo"] },
+    { q: "Su plan soñado para una noche perfecta es…", opts: ["Cena + algo cultural", "Noche en casa con mimo", "Salir a bailar", "Algo nuevo que nunca probaron"] },
+    { q: "¿Cuál es su clásico de película/serie que jamás se saltea?", opts: ["Una romántica", "Una de acción", "Una comedia vieja", "Una que vieron juntos y se volvió sagrada"] }
+  ];
 
   /* ---------- estado ---------- */
 
-  const STORAGE_KEY = "dadoDelAmor_v2";
+  const STORAGE_KEY = "dadoDelAmor_v3";
 
   const DEFAULTS = {
     points: { 1: 0, 2: 0 },
@@ -149,19 +181,23 @@
     history: [],
     goal: 100,
     margin: 20,
-    rewards: { ...DEFAULT_REWARDS },
+    rewards: JSON.parse(JSON.stringify(DEFAULT_REWARDS)),
     champions: [],
-    pendingReward: null, // { who, name } con premio sin elegir
-    lastClaim: null,     // { name, reward }
+    pendingReward: null, // { who, name } premio sin elegir
+    lastClaim: null,     // { name, reward, cat }
     season: 1
   };
 
-  let state = { ...DEFAULTS, points: { ...DEFAULTS.points }, names: { ...DEFAULTS.names }, rewards: { ...DEFAULTS.rewards }, history: [] };
+  function cloneRewards() { return JSON.parse(JSON.stringify(DEFAULT_REWARDS)); }
+
+  let state = {
+    ...DEFAULTS, points: { ...DEFAULTS.points }, names: { ...DEFAULTS.names },
+    rewards: cloneRewards(), history: []
+  };
 
   let rolling = false;
   let currentCard = null;
   let votesOpen = false;
-  let claiming = false; // cuando el modal de premio está abierto solo para elegir
 
   /* ---------- helpers DOM ---------- */
 
@@ -174,16 +210,21 @@
       const raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return;
       const s = JSON.parse(raw);
-      let v = {};
-      for (const k of Object.keys(DEFAULTS)) {
-        if (s[k] !== undefined) v[k] = s[k];
-      }
-      state = Object.assign(state, v);
+      Object.assign(state, s);
       state.points = Object.assign({ 1: 0, 2: 0 }, s.points);
       state.names = Object.assign({ 1: "Alex", 2: "Majo" }, s.names);
-      state.rewards = Object.assign({ ...DEFAULT_REWARDS }, s.rewards);
+      const merged = cloneRewards();
+      for (const k of Object.keys(merged)) {
+        if (s.rewards && s.rewards[k]) {
+          merged[k] = { 1: s.rewards[k][1] || DEFAULT_REWARDS[k][1], 2: s.rewards[k][2] || DEFAULT_REWARDS[k][2] };
+        }
+      }
+      state.rewards = merged;
       if (!Array.isArray(state.history)) state.history = [];
       if (!Array.isArray(state.champions)) state.champions = [];
+      for (const k of ["goal", "margin", "season"]) {
+        if (typeof state[k] !== "number" || isNaN(state[k])) state[k] = DEFAULTS[k];
+      }
     } catch (e) { /* estado corrupto, se ignora */ }
   }
 
@@ -197,7 +238,7 @@
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(persist)); } catch (e) {}
   }
 
-  /* ---------- sonido (WebAudio, sin archivos) ---------- */
+  /* ---------- sonido ---------- */
 
   let audioCtx = null;
   function ac() {
@@ -226,19 +267,19 @@
   }
 
   function soundWin() {
-    [523.25, 659.25, 783.99, 1046.5].forEach((f, i) =>
-      playTone(f, 0.3, "triangle", 0.16, ac().currentTime + i * 0.13));
+    [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => playTone(f, 0.3, "triangle", 0.16, ac().currentTime + i * 0.13));
   }
 
   function soundFanfare() {
-    [523.25, 659.25, 783.99, 1046.5, 1318.5].forEach((f, i) =>
-      playTone(f, 0.45, "triangle", 0.2, ac().currentTime + i * 0.16));
+    [523.25, 659.25, 783.99, 1046.5, 1318.5].forEach((f, i) => playTone(f, 0.45, "triangle", 0.2, ac().currentTime + i * 0.16));
   }
 
   function soundFail() {
     playTone(220, 0.3, "sawtooth", 0.08, ac().currentTime);
     playTone(160, 0.4, "sawtooth", 0.08, ac().currentTime + 0.15);
   }
+
+  function soundPick() { playTone(880, 0.12, "triangle", 0.12, ac().currentTime); }
 
   /* ---------- confeti ---------- */
 
@@ -257,16 +298,10 @@
     const cy = y !== undefined ? y : innerHeight * 0.32;
     for (let i = 0; i < count; i++) {
       particles.push({
-        x: cx + (Math.random() - 0.5) * 320,
-        y: cy + (Math.random() - 0.5) * 220,
-        vx: (Math.random() - 0.5) * 10,
-        vy: -Math.random() * 9 - 2,
-        g: 0.22 + Math.random() * 0.12,
-        size: 6 + Math.random() * 8,
-        rot: Math.random() * Math.PI * 2,
-        vr: (Math.random() - 0.5) * 0.3,
-        color: colors[(Math.random() * colors.length) | 0],
-        life: 1
+        x: cx + (Math.random() - 0.5) * 320, y: cy + (Math.random() - 0.5) * 220,
+        vx: (Math.random() - 0.5) * 10, vy: -Math.random() * 9 - 2, g: 0.22 + Math.random() * 0.12,
+        size: 6 + Math.random() * 8, rot: Math.random() * Math.PI * 2, vr: (Math.random() - 0.5) * 0.3,
+        color: colors[(Math.random() * colors.length) | 0], life: 1
       });
     }
   }
@@ -326,10 +361,8 @@
     $("name1").textContent = state.names[1];
     $("name2").textContent = state.names[2];
 
-    const r1 = Math.min(state.points[1] / state.goal, 1);
-    const r2 = Math.min(state.points[2] / state.goal, 1);
-    $("bar1").style.width = (r1 * 100) + "%";
-    $("bar2").style.width = (r2 * 100) + "%";
+    $("bar1").style.width = (Math.min(state.points[1] / state.goal, 1) * 100) + "%";
+    $("bar2").style.width = (Math.min(state.points[2] / state.goal, 1) * 100) + "%";
 
     document.getElementById("player1Card").classList.toggle("active", state.turn === 1);
     document.getElementById("player2Card").classList.toggle("active", state.turn === 2);
@@ -344,9 +377,7 @@
 
   function renderStats() {
     const lead = state.points[1] === state.points[2] ? "Están empatadísimos 😍"
-      : (state.points[1] > state.points[2]
-        ? "Gana 💙 " + state.names[1]
-        : "Gana 💗 " + state.names[2]);
+      : (state.points[1] > state.points[2] ? "Gana 💙 " + state.names[1] : "Gana 💗 " + state.names[2]);
     $("statsText").textContent = lead + " · " + state.points[1] + " vs " + state.points[2];
 
     const champs = $("championsLine");
@@ -362,7 +393,8 @@
     const lc = $("lastClaim");
     if (state.lastClaim) {
       lc.classList.remove("hidden");
-      lc.innerHTML = "🎟️ <b>" + state.lastClaim.name + "</b> eligió: <i>" + state.lastClaim.reward + "</i>";
+      lc.innerHTML = "🎟️ <b>" + state.lastClaim.name + "</b> eligió <b>" + (REWARDS_META[state.lastClaim.cat] || { icon: "" }).icon +
+        "</b> " + state.lastClaim.level + "º: <i>" + state.lastClaim.reward + "</i>";
     } else {
       lc.classList.add("hidden");
     }
@@ -386,12 +418,8 @@
   /* ---------- dado ---------- */
 
   const FACE_ROT = {
-    1: { x: 0, y: 0 },
-    6: { x: 0, y: 180 },
-    2: { x: -90, y: 0 },
-    3: { x: 0, y: 90 },
-    4: { x: 0, y: -90 },
-    5: { x: 90, y: 0 }
+    1: { x: 0, y: 0 }, 6: { x: 0, y: 180 }, 2: { x: -90, y: 0 },
+    3: { x: 0, y: 90 }, 4: { x: 0, y: -90 }, 5: { x: 90, y: 0 }
   };
 
   function rollDice(callback) {
@@ -419,7 +447,6 @@
   function showResult(catKey, source) {
     const cat = CONTENT[catKey];
     const pts = (source === "comodin" ? 2 : 1) * cat.pts;
-
     currentCard = { cat: catKey, catObj: cat, pts: pts, text: pickRandom(cat.items) };
 
     $("cardEmpty").classList.add("hidden");
@@ -482,11 +509,8 @@
       let cat = FACE_TO_CAT[face];
       if (!currentCatList().includes(cat) && CONTENT[cat]) cat = "comodin";
 
-      if (cat === "comodin") {
-        showVote();
-      } else {
-        setTimeout(() => showResult(cat, "directo"), 120);
-      }
+      if (cat === "comodin") showVote();
+      else setTimeout(() => showResult(cat, "directo"), 120);
       rolling = false;
     });
   }
@@ -537,21 +561,21 @@
       openCelebration(p);
       return true;
     }
-    // nota de desempate (sin romper el flujo)
     const target = state.names[p];
     flashHint("🔥 ¡Meta alcanzada por <strong>" + target + "</strong> pero muy parejo! Necesitás " +
       state.margin + " pts de ventaja para ganar. ¡A desempatar! 💪", true);
     return false;
   }
 
-  /* ---------- celebración y premios ---------- */
+  /* ---------- celebración: categoría → quiz → premio ---------- */
 
   let pendingClaimWho = null;
+  let quizIndex = 0;
+  let chosenCat = null;
 
   function openCelebration(who) {
     pendingClaimWho = who;
-    claiming = true;
-    renderCelebration();
+    renderCategories();
     $("celeOverlay").classList.remove("hidden");
     soundFanfare();
     confetti(180);
@@ -559,55 +583,97 @@
     setTimeout(() => confetti(120, innerWidth * 0.8, innerHeight * 0.4), 800);
   }
 
-  function renderCelebration() {
-    const who = pendingClaimWho;
-    if (!who) return;
-    const winnerName = state.names[who];
-    const loserName = state.names[other(who)];
+  function renderCategories() {
+    chosenCat = null;
+    quizIndex = -1;
+
+    const winnerName = state.names[pendingClaimWho];
+    const loserName = state.names[other(pendingClaimWho)];
 
     $("celeTitle").textContent = "¡Ganó " + winnerName + "!";
-    $("laterBtn").classList.remove("hidden");
-    $("celeSub").textContent = claiming
-      ? "La temporada tiene campeón. " + loserName + ": toca cumplir 💍"
-      : "Premio pendiente para " + winnerName + ". Elegí cuál va a cumplir " + loserName + ".";
+    $("celeSub").innerHTML = "Tocó la gloria, " + loserName + " cumple. Elegí la <b>categoría</b> que creas que más le gustaría a " + loserName + ".";
 
-    const tiers = [
-      { medal: "🥉", lvl: "Nivel 1 · Simple", txt: state.rewards[1] },
-      { medal: "🥈", lvl: "Nivel 2 · Media", txt: state.rewards[2] },
-      { medal: "🥇", lvl: "Nivel 3 · Épica", txt: state.rewards[3] }
-    ];
+    $("quizStep").classList.add("hidden");
+    $("claimBox").classList.add("hidden");
 
-    $("tiers").innerHTML = tiers.map((t, i) =>
-      '<button class="tier-btn" data-tier="' + (i + 1) + '">' +
-      '<span class="t-medal">' + t.medal + '</span>' +
-      '<span class="t-body"><b>' + t.lvl + '</b><span>' + t.txt + '</span></span></button>'
+    const html = Object.entries(REWARDS_META).map(([k, m]) =>
+      '<button class="tier-btn cat" data-cat="' + k + '">' +
+      '<span class="t-medal">' + m.icon + '</span>' +
+      '<span class="t-body"><b>' + m.name + '</b><span>Dos niveles: simple y épica.</span></span></button>'
     ).join("");
+    $("tiers").innerHTML = html;
 
     $("tiers").querySelectorAll(".tier-btn").forEach(bh => {
       bh.addEventListener("click", () => {
-        document.querySelectorAll("#tiers .tier-btn").forEach(x => x.classList.remove("sel"));
-        bh.classList.add("sel");
-        const tier = bh.dataset.tier;
-        $("claimText").innerHTML = "<b>" + winnerName + "</b> elige: <b>" + state.rewards[tier] + "</b><br>" +
-          "<small>¡" + loserName + ", te toca cumplir! 😄</small>";
-        $("claimBox").classList.remove("hidden");
-        $("laterBtn").classList.add("hidden");
-        state.pendingReward = null;
-        state.lastClaim = { name: winnerName, reward: state.rewards[tier] };
-        save();
-        renderStats();
+        soundPick();
+        renderQuiz(bh.dataset.cat);
       });
     });
 
+    $("laterBtn").classList.remove("hidden");
     $("laterBtn").textContent = "Prefiero elegir el premio después";
+  }
+
+  function renderQuiz(catKey) {
+    chosenCat = catKey;
+    const loserName = state.names[other(pendingClaimWho)];
+
+    quizIndex = (Math.random() * QUIZ.length) | 0;
+    const q = QUIZ[quizIndex];
+
+    $("celeSub").innerHTML = "Para ganarte el <b>Nivel 2</b>, respondé esta pregunta sobre <b>" + loserName + "</b>:";
+    $("quizQ").textContent = q.q;
+    const opts = q.opts.map((o, i) =>
+      '<button class="q-btn" data-opt="' + i + '">' + o + '</button>').join("");
+    $("quizOpts").innerHTML = opts;
+
+    $("quizOpts").querySelectorAll(".q-btn").forEach(b => {
+      b.addEventListener("click", () => {
+        document.querySelectorAll("#quizOpts .q-btn").forEach(x => x.classList.remove("sel"));
+        b.classList.add("sel");
+        $("quizVerdict").classList.remove("hidden");
+        soundPick();
+      });
+    });
+
+    $("quizStep").classList.remove("hidden");
+    $("claimBox").classList.add("hidden");
+  }
+
+  function resolveQuiz(correct) {
+    const loserName = state.names[other(pendingClaimWho)];
+    const level = correct ? 2 : 1;
+    const reward = state.rewards[chosenCat][level];
+    const meta = REWARDS_META[chosenCat];
+
+    $("quizVerdict").classList.add("hidden");
+    $("quizOpts").innerHTML = "";
+
+    $("celeSub").innerHTML = correct
+      ? "🎯 ¡Le acertaste! Te ganaste el <b>Nivel 2 · Épica</b> de la categoría " + meta.icon + "."
+      : "Casi… <b>Nivel 1</b> para vos. Mejor siguen jugando juntos y conociéndose 😉";
+
+    $("claimText").innerHTML =
+      "<b>" + meta.icon + " " + meta.name + " · Nivel " + level + "</b><br>" +
+      reward + "<br><small>¡" + loserName + ", te toca cumplir! 😄</small>";
+    $("claimBox").classList.remove("hidden");
+    $("laterBtn").classList.add("hidden");
+
+    state.pendingReward = null;
+    state.lastClaim = { name: state.names[pendingClaimWho], reward: reward, cat: chosenCat, level: level };
+    save();
+    renderStats();
+
+    if (correct) { confetti(90); soundFanfare(); }
+    else soundWin();
   }
 
   function closeCelebration() {
     $("celeOverlay").classList.add("hidden");
     $("claimBox").classList.add("hidden");
-    document.querySelectorAll("#tiers .tier-btn").forEach(x => x.classList.remove("sel"));
+    $("quizVerdict").classList.add("hidden");
+    $("quizOpts").innerHTML = "";
     $("laterBtn").classList.remove("hidden");
-    claiming = false;
     renderStats();
   }
 
@@ -633,13 +699,23 @@
   function openSettings() {
     $("setGoal").value = state.goal;
     $("setMargin").value = state.margin;
-    $("setReward1").value = state.rewards[1];
-    $("setReward2").value = state.rewards[2];
-    $("setReward3").value = state.rewards[3];
+    $("setRewardA1").value = state.rewards.aventura[1];
+    $("setRewardA2").value = state.rewards.aventura[2];
+    $("setRewardB1").value = state.rewards.premium[1];
+    $("setRewardB2").value = state.rewards.premium[2];
+    $("setRewardC1").value = state.rewards.libre[1];
+    $("setRewardC2").value = state.rewards.libre[2];
     $("setOverlay").classList.remove("hidden");
   }
 
   function closeSettings() { $("setOverlay").classList.add("hidden"); }
+
+  function setReward(group, level) {
+    return function () {
+      const v = this.value.trim();
+      if (v) state.rewards[group][level] = v;
+    };
+  }
 
   function saveSettings() {
     let goal = parseInt($("setGoal").value, 10);
@@ -650,9 +726,13 @@
 
     state.goal = goal;
     state.margin = margin;
-    state.rewards[1] = $("setReward1").value.trim() || state.rewards[1];
-    state.rewards[2] = $("setReward2").value.trim() || state.rewards[2];
-    state.rewards[3] = $("setReward3").value.trim() || state.rewards[3];
+
+    $("setRewardA1").value.trim() && (state.rewards.aventura[1] = $("setRewardA1").value.trim());
+    $("setRewardA2").value.trim() && (state.rewards.aventura[2] = $("setRewardA2").value.trim());
+    $("setRewardB1").value.trim() && (state.rewards.premium[1] = $("setRewardB1").value.trim());
+    $("setRewardB2").value.trim() && (state.rewards.premium[2] = $("setRewardB2").value.trim());
+    $("setRewardC1").value.trim() && (state.rewards.libre[1] = $("setRewardC1").value.trim());
+    $("setRewardC2").value.trim() && (state.rewards.libre[2] = $("setRewardC2").value.trim());
 
     save();
     render();
@@ -700,8 +780,10 @@
   $("setClose").addEventListener("click", closeSettings);
   $("saveSet").addEventListener("click", saveSettings);
 
-  // celebración
+  // celebración y quiz
   $("celeClose").addEventListener("click", closeCelebration);
+  $("quizYes").addEventListener("click", () => resolveQuiz(true));
+  $("quizNo").addEventListener("click", () => resolveQuiz(false));
   $("laterBtn").addEventListener("click", () => {
     if (pendingClaimWho) state.pendingReward = { who: pendingClaimWho, name: state.names[pendingClaimWho] };
     save();
@@ -710,9 +792,9 @@
   });
   $("seasonBtn").addEventListener("click", newSeason);
   $("claimBtn").addEventListener("click", () => {
-    if (state.pendingReward) { pendingClaimWho = state.pendingReward.who; claiming = true; }
-    else { pendingClaimWho = state.turn; claiming = true; }
-    renderCelebration();
+    if (state.pendingReward) pendingClaimWho = state.pendingReward.who;
+    else pendingClaimWho = state.turn;
+    renderCategories();
     $("celeOverlay").classList.remove("hidden");
   });
 
@@ -749,7 +831,7 @@
   /* ---------- arranque ---------- */
 
   load();
-  save(); // normalizar estado viejo a la v2
+  save();
   mode.setAttribute("aria-checked", String(state.picante));
   renderAll();
   renderHistory();

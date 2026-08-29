@@ -22,14 +22,15 @@ Un juego web para parejas: tirá el dado, cumplí la carta y sumá puntos hasta 
 
 - Hay una **meta de puntos por temporada** (por defecto **100**) que se muestra desde el inicio.
 - Para ganar no alcanza con llegar a la meta: hay que sacar la **ventaja** (por defecto **20** pts) → se puede ir a desempate.
-- Quien gana elige su premio entre **3 niveles** (se editan en ⚙️ Ajustes):
+- Quien gana elige una **categoría de premio** (la que crea que al otro más le gustaría) y responde una **pregunta personal** sobre el otro: si acierta gana el **Nivel 2**, si no, el **Nivel 1**.
 
-| Nivel | Tipo | Ejemplo por defecto |
-|-------|------|---------------------|
-| 🥉 | Simple | Elegir qué comemos y qué vemos en la próxima cita. |
-| 🥈 | Media | El perdedor planea y paga una cita elegida por el ganador. |
-| 🥇 | Épica | Salida/experiencia que elige el ganador (show, spa, día de campo…). Pensada para dos que no conviven. |
+| Categoría | Nivel 1 · Simple | Nivel 2 · Épica |
+|-----------|------------------|-----------------|
+| 🧳 Aventura | Un día fuera de la rutina que arma el perdedor. | Una escapada de verdad planeada por el perdedor. |
+| 🥂 Noche premium | El perdedor paga, el ganador elige el plan. | Experiencia inolvidable (teatro, concierto, spa…). |
+| 🃏 Carta blanca | Un deseo libre (lógico y legal, pero creativo). | Carta blanca total: el ganador escribe su deseo más tentador. |
 
+- Los **6 premios** (3 categorías × 2 niveles) se editan en ⚙️ Ajustes.
 - El ganador pasa al **salón de la fama** y se arranca una **nueva temporada**.
 
 Los puntos, ajustes, historial y campeones se guardan en el navegador (`localStorage`).
